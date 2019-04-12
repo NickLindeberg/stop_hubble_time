@@ -1,24 +1,2 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## HubbleTime
+Build a nerd app - show users images from the [Hubble API](http://hubblesite.org/api/documentation) and allow them to favorite images. They should be able to toggle between "all" and "favorites" on the same screen.
