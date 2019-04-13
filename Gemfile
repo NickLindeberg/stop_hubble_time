@@ -40,6 +40,10 @@ gem 'faraday'
 gem 'bootstrap-sass'
 gem 'bcrypt'
 
+group :test do
+  gem 'shoulda-matchers'
+end
+
 group :development, :test do
   gem 'pry'
   gem 'rspec-rails'
