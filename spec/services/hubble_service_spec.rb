@@ -18,6 +18,6 @@ describe 'hubble service' do
     service = HubbleService.new
     link = service.image_link(100)
 
-    expect(link).to eq("")
+    expect(link).to eq('https://media.stsci.edu/uploads/image_file/image_attachment/657/web.jpg')
   end
 end
