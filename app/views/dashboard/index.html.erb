@@ -1,1 +1,9 @@
 
+<div class="images">
+    <% @links.each do |link| %>
+    <div class="box">
+      <%= image_tag "#{link}" %>
+      <%= link_to "Favorite", root_path, class: 'btn btn-info btn-md btn-block text-center' %>
+    </div>
+    <% end %>
+</div>
