@@ -14,3 +14,9 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+
+// function favs() {
+//   document.getElementById('guess-button').classList.add('show');
+//
+// }
