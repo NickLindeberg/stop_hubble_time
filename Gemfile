@@ -39,10 +39,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'faraday'
 gem 'bootstrap-sass'
 gem 'bcrypt'
-
-group :test do
-  gem 'shoulda-matchers'
-end
+gem 'shoulda-matchers'
 
 group :development, :test do
   gem 'pry'
