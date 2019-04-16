@@ -1,6 +1,7 @@
 body {
   background-color: black;
   color: white;
+  text-align: center;
 }
 
 .active {
@@ -16,4 +17,9 @@ img {
 
 .box {
   margin-bottom: 20px;
+}
+
+
+.show {
+  display: block;
 }

@@ -5,6 +5,5 @@ describe 'Nav Bar Spec' do
   visit '/'
 
   expect(page).to have_link("Favorites")
-  expect(page).to have_link("Random")
   end
 end
