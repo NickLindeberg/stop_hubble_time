@@ -1,0 +1,8 @@
+<h2>My Favorite Images!</h2>
+<div class="favorites">
+    <% @favorites.each do |fav| %>
+    <div class="box">
+      <%= image_tag "#{fav.link}" %>
+    </div>
+    <% end %>
+</div>
