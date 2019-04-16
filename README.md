@@ -30,3 +30,7 @@ Build a nerd app - show users images from the [Hubble API](http://hubblesite.org
 - Authentication and Authorization
 - Implement a wider ranger of images
 - Find a more versatile API for images
+
+# Want to contribute?
+
+- Send a pull request and I will take a look!
