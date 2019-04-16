@@ -5,7 +5,7 @@ describe 'image index' do
     visit '/'
 
     within(".images") do
-      expect(page).to have_link("Favorite")
+      expect(page).to have_button("Favorite")
       expect(page).to have_css("img")
     end
   end
