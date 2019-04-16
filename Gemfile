@@ -39,7 +39,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'faraday'
 gem 'bootstrap-sass'
 gem 'bcrypt'
-gem 'shoulda-matchers'
+gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git', branch: 'rails-5'
 
 group :development, :test do
   gem 'pry'
