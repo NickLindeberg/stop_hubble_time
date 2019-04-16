@@ -1,6 +1,9 @@
 ## Stop! Hubble Time
 Build a nerd app - show users images from the [Hubble API](http://hubblesite.org/api/documentation) and allow them to favorite images. They should be able to toggle between "all" and "favorites" on the same screen.
 
+![Imgur](https://i.imgur.com/0OutnV0.png)
+![Imgur](https://i.imgur.com/kJFJKTm.png)
+
 ## Tech Stack
 - Rails 5.2.3
 - Ruby 2.4.1
