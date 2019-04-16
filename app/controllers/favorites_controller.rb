@@ -7,7 +7,7 @@ class FavoritesController < ApplicationController
   def create
     user = User.first
     favorite = params[:favorite]
-    user.favorites.create(link: favorite)
+    user.favorites.find_or_create_by(link: favorite)
     redirect_to favorites_path
   end
 
