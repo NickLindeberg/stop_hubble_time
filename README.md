@@ -11,6 +11,8 @@ Build a nerd app - show users images from the [Hubble API](http://hubblesite.org
 - Bootstrap
 - HTML
 - CSS
+- Rspec
+- Capybara
 
 ## Deployed Link
 - [Stop! Hubble Time](https://stop-hubble-time.herokuapp.com/)
